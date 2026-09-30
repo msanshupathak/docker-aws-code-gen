@@ -1,7 +1,7 @@
 # Build the Frontend [dist folder]
 # Copy the dist folder content in Backend/public folder
 
-FROM node:20-alpine as frontend-builder
+FROM node:20-alpine AS frontend-builder
 
 COPY ./Frontend /app
 
